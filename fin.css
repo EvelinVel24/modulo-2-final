@@ -1,9 +1,20 @@
+/* Fondo rosa claro para secciones */
+section {
+    background-color: #80BFFF; /* Color rosa claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+}
+
 /* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -11,7 +22,6 @@ header {
     color: white;
     padding: 50px;
     text-align: center;
-    border-bottom: 5px solid #004085;
 }
 
 header h1 {
@@ -64,14 +74,17 @@ footer {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 .card-body {
     padding: 20px;
+    background-color: #0056b3;
 }
 
 .card-text {
     white-space: pre-line;
+    background-color: #0056b3;
 }
 
 h2 {
@@ -80,6 +93,7 @@ h2 {
     border-bottom: 2px solid #007bff;
     padding-bottom: 10px;
 }
+
 
 
 
