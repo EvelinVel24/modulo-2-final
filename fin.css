@@ -1,13 +1,34 @@
-
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
     color: white;
-    padding: 10px 0;
+    padding: 50px;
     text-align: center;
+    border-bottom: 5px solid #004085;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    line-height: 1.8;
+    text-align: left;
 }
 
 nav ul {
@@ -37,3 +58,28 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-text {
+    white-space: pre-line;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+
+
