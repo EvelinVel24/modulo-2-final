@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="fin.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Evelin Julizza Véliz Fuentes</h1>
+        <p>Soy una profesional en el Desarrollo Frontend JavaScript, combinada con experiencia en el área de atención al cliente. Esta combinación de habilidades me permite adaptarme fácilmente a diferentes contextos y contribuir de manera integral a los equipos de trabajo. Destacada por mi puntualidad, proactividad y habilidades blandas en la resolución de problemas.</p>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="skills" class="container mt-4">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Adaptación al Cambio.</li>
+            <li>Mentalidad de Crecimiento</li>
+            <li>Atención al Detalle</li>
+            <li>Gestión del Tiempo</li>
+        </ul>
+    </section>
+    <section id="projects" class="container mt-4">
+        <h2>Proyectos</h2>
+        <article class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">Proyecto EnergizaTech</h3>
+                <p class="card-text">El proyecto EnergizaTech 
+                    Objetivo Principal:Desarrollar una plataforma digital que fomente la sostenibilidad y la eficiencia energética en los hogares, facilitando la adopción de prácticas y tecnologías eco-amigables.
+
+                    Descripción del Proyecto:El proyecto "Energiza-Tech" tiene como objetivo empoderar a los residentes urbanos para reducir su impacto ambiental a través de acciones sencillas y tecnologías innovadoras dentro del hogar.
+                    
+                    Nuestra propuesta de proyecto integrador centrada en la sostenibilidad y la eficiencia energética en el contexto del hogar, alineada con el Objetivo de Desarrollo Sostenible (ODS) 11: Ciudades y comunidades sostenibles. Este proyecto se enfoca en desarrollar una plataforma para promover prácticas y tecnologías sostenibles dentro de los hogares.  
+                    
+                    Impacto y Contribución al ODS 11:
+                    Promoción de Estilos de Vida Sostenibles: Capacitación y empoderamiento de individuos para adoptar prácticas responsables en sus hogares.
+                    Reducción de la Huella Ambiental: Facilitación de la transición hacia hogares más eficientes y eco-amigables.
+                    Creación de Comunidades Conscientes: Fomento de una red de usuarios comprometidos con la sostenibilidad a nivel doméstico.</p>
+            </div>
+        </article>
+    </section>
+    <section id="contact" class="container mt-4">
+        <h2>Contactame!</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; Evelin Julizza Véliz Fuentes</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JavaScript -->
+    <script src="fin.js"></script>
+</body>
+</html>
