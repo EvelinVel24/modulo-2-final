@@ -1,25 +1,15 @@
-/* Fondo rosa claro para secciones */
-section {
-    background-color: #2a4765; /* Color rosa claro */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    color: white;
-}
-
 /* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #f8f9fa; /* Fondo clarito para todo el sitio */
     color: #333;
 }
 
 header {
-    background-color: white;
-    color: white;
+    background-color: white; /* Fondo blanco para el header */
+    color: #000; /* Texto negro que dice evelin juli */
     padding: 50px;
     text-align: center;
 }
@@ -30,36 +20,31 @@ header h1 {
     font-weight: bold;
 }
 
-header p {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 0 auto;
+/* Otros estilos */
+section {
+    background-color: white; /* Fondo clarito */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    line-height: 1.8;
-    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: black; /*texto*/
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+/* Nuevos estilos para la tarjeta de "Proyectos" */
+.card-text {
+    line-height: 1.8; /* Aumenta el espaciado entre líneas */
+    margin-bottom: 15px; /* Espacio adicional al final del párrafo */
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 15px;
+.card-text strong {
+    display: block; /* Cada texto en negrita ocupará una línea separada */
+    margin-top: 20px; /* Añade un margen superior entre cada sección del texto */
 }
 
-@media (max-width: 600px) {
-    nav ul {
-        text-align: center;
-        padding: 0;
-    }
-    nav ul li {
-        display: block;
-        margin: 5px 0;
-    }
+/* Estilos para listas dentro de .card-text */
+.card-text ul {
+    margin-top: 10px; /* Añade espacio antes de las listas */
+    margin-bottom: 10px; /* Añade espacio después de las listas */
 }
 
 footer {
@@ -68,32 +53,3 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
-
-.card {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    
-}
-
-.card-body {
-    padding: 20px;
-    background-color: white;
-}
-
-.card-text {
-    white-space: pre-line;
-    background-color: #0056b3;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 2rem;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
-}
-
-
-
-
