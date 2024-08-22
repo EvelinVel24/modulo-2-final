@@ -3,13 +3,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa; /* Fondo clarito para todo el sitio */
-    color: #333;
+    background-color: #000; /* Fondo negro para todo el sitio */
+    color: #fff; /* Texto blanco para todo el sitio */
 }
 
 header {
-    background-color: white; /* Fondo blanco para el header */
-    color: #000; /* Texto negro que dice evelin juli */
+    background-color: blue; /* Fondo oscuro para el header para destacar del fondo negro */
+    color: #fff; /* Texto blanco en el header */
     padding: 50px;
     text-align: center;
 }
@@ -20,20 +20,25 @@ header h1 {
     font-weight: bold;
 }
 
-/* Otros estilos */
 section {
-    background-color: white; /* Fondo clarito */
+    background-color: blue; /* Fondo gris oscuro para las secciones */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada para mayor contraste */
     margin-bottom: 20px;
-    color: black; /*texto*/
+    color: #fff; /* Texto blanco dentro de las secciones */
 }
 
-/* Nuevos estilos para la tarjeta de "Proyectos" */
+div.card-body {
+    background-color: blue;
+}
+
+
 .card-text {
     line-height: 1.8; /* Aumenta el espaciado entre líneas */
     margin-bottom: 15px; /* Espacio adicional al final del párrafo */
+    color: white;
+    background-color: blue;
 }
 
 .card-text strong {
@@ -41,15 +46,15 @@ section {
     margin-top: 20px; /* Añade un margen superior entre cada sección del texto */
 }
 
-/* Estilos para listas dentro de .card-text */
 .card-text ul {
     margin-top: 10px; /* Añade espacio antes de las listas */
     margin-bottom: 10px; /* Añade espacio después de las listas */
 }
 
 footer {
-    background-color: #343a40;
-    color: white;
+    background-color: #222; /* Fondo oscuro para el footer */
+    color: #fff; /* Texto blanco en el footer */
     padding: 10px 0;
     text-align: center;
 }
+
