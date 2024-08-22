@@ -12,6 +12,7 @@ header {
     color: #fff; /* Texto blanco en el header */
     padding: 50px;
     text-align: center;
+    border-top: 2px solid white;
 }
 
 header h1 {
